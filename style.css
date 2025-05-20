@@ -1,0 +1,83 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+
+
+body {
+    margin: 0px
+}
+
+h1 {
+    margin: 0px;
+    font-size: 2.65em;
+    padding-top: 45px;
+}
+
+header p {
+    font-size: 1em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: -5px;
+    
+    
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+header {
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 175px;
+    font-family: 'Passion One';
+}
+
+footer {
+    color: white;
+    background-color: black;
+    text-align: center;
+    margin-top: 10px;
+}
+
+footer p {
+    margin: 0px;
+    padding: 5px;
+    
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+main pre {
+    font-size: 21px;
+    line-height: 40px;
+    font-family: 'Sriracha';
+    white-space: pre-line;
+}
+
+.normal{
+    padding: 30px;
+    height: 390px;
+    
+}
+
+.fundo {
+    padding: 30px;
+}
+
+
+.fundo > pre{
+    background-color: rgba(0, 0, 0, 0.459);
+    color: white;
+    padding: 5px;
+    
+
+    
+}
+

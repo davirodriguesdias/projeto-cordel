@@ -3,22 +3,28 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
 
+* {
+    margin: 0px;
+    padding: 0px;
+}
 
-
-body {
-    margin: 0px
+html, body {
+    margin: 0px;
+    background-color: darkgray;
+    min-height: 100vh;
 }
 
 h1 {
-    margin: 0px;
-    font-size: 2.65em;
-    padding-top: 45px;
+    font-variant: small-caps;
+    font-size: 3.8em;
+    padding-top: 50px;
 }
 
 header p {
+    padding-bottom: 50px;
     font-size: 1em;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-top: -5px;
+    
     
     
 }
@@ -26,13 +32,17 @@ header p {
 header a {
     text-decoration: none;
     color: white;
+    font-weight: bolder;
+}
+
+header a:hover {
+    text-decoration: underline;
 }
 
 header {
     text-align: center;
     background-color: black;
     color: white;
-    height: 175px;
     font-family: 'Passion One';
 }
 
@@ -41,12 +51,7 @@ footer {
     background-color: black;
     text-align: center;
     margin-top: 10px;
-}
-
-footer p {
-    margin: 0px;
     padding: 5px;
-    
 }
 
 footer a {
@@ -56,28 +61,33 @@ footer a {
 
 main pre {
     font-size: 21px;
-    line-height: 40px;
+    line-height: 2em;
     font-family: 'Sriracha';
     white-space: pre-line;
+    
+
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px; 
 }
 
 .normal{
-    padding: 30px;
-    height: 390px;
+    background-color: white;
+    color: black;
+    
     
 }
 
 .fundo {
-    padding: 30px;
+    color: white;
 }
 
 
 .fundo > pre{
-    background-color: rgba(0, 0, 0, 0.459);
-    color: white;
-    padding: 5px;
-    
-
-    
+    background-color: rgba(0,0,0,0.253);
+    width: 400px;
 }
 

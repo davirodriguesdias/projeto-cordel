@@ -26,14 +26,15 @@ h1 {
     font-variant: small-caps;
     padding-top: 50px;
     font-family: var(--fonte02);
-    font-size: 4vw;
+    font-size: 5.5vw;
 
 }
 
 header p {
     padding-bottom: 50px;
     font-size: 1em;
-    font-family:var(--fonte01)
+    font-family:var(--fonte01);
+   
     
     
     
@@ -76,6 +77,7 @@ main pre {
     font-family: var(--fonte03);
     white-space: pre-line;
     padding-bottom: 2em;
+    text-shadow: 1px 1px 0px black;
     
 
 }
@@ -91,10 +93,13 @@ section {
     color: black;
     
     
+    
 }
 
 .fundo {
     color: white;
+    
+    box-shadow: inset 0px 0px 10px 3px black;
 }
 
 
